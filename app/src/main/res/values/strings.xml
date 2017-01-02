@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TosanBoomSample</string>
+    <string name="login">ورود</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="please_wait">لطفاً کمی صبر کنید…</string>
+    <string name="retry">تلاش مجدد</string>
+    <string name="deposits_of">سپرده‌های</string>
+    <string name="balance">موجودی</string>
+    <string name="deposit_number">شماره سپرده</string>
+    <string name="iban">شبا</string>
+    <string name="available_balance">موجودی قابل برداشت</string>
+    <string name="rials">ریال</string>
+    <string name="statement">صورتحساب</string>
+    <string name="deposit">سپرده</string>
+    <string name="description">توضیحات</string>
+    <string name="reference_number">شماره پیگیری</string>
+    <string name="amount">مبلغ</string>
+    <string name="date">تاریخ</string>
+</resources>

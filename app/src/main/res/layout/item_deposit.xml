@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/spacing_normal"
+    android:paddingTop="@dimen/spacing_normal">
+
+    <co.nilin.tosanboomsample.widget.MyMediumTextView
+        android:id="@+id/tvDepositNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/deposit_number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+    <co.nilin.tosanboomsample.widget.MyTextView
+        android:id="@+id/tvIBAN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:text="@string/iban"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <co.nilin.tosanboomsample.widget.MyTextView
+        android:id="@+id/tvBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:text="@string/balance"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <co.nilin.tosanboomsample.widget.MyTextView
+        android:id="@+id/tvAvailableBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:text="@string/available_balance"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+</LinearLayout>
