@@ -10,6 +10,9 @@ import com.koushikdutta.ion.Ion;
  */
 
 public class MyApplication extends Application {
+    public static final String TOSAN_BOOM_USERNAME = "Replace your TosanBoom username";
+    public static final String TOSAN_BOOM_PASSWORD = "Replace your TosanBoom password";
+
     @Override
     public void onCreate() {
         super.onCreate();

@@ -65,8 +65,8 @@ public class MainActivity extends MyActivity {
         findViewById(android.R.id.progress).setVisibility(View.VISIBLE);
 
         JsonObject loginRequest = new JsonObject();
-        loginRequest.addProperty("username", "tafazoli");
-        loginRequest.addProperty("password", "qazQAZ123!@#");
+        loginRequest.addProperty("username", MyApplication.TOSAN_BOOM_USERNAME);
+        loginRequest.addProperty("password", MyApplication.TOSAN_BOOM_PASSWORD);
 
         Ion.with(this)
                 .load(AppUrls.MARKET_LOGIN_URL)
